@@ -1,0 +1,20 @@
+[2022-10-04 15:22:19] [windows-agents] Connecting to ivieriu-nb.luxoft.com
+ERROR: [2022-10-04 15:22:19] [windows-agents] Access is denied. See https://github.com/jenkinsci/windows-slaves-plugin/blob/master/docs/troubleshooting.adoc for more information about how to resolve this.
+org.jinterop.dcom.common.JIException: Message not found for errorCode: 0x00000005
+	at org.jinterop.dcom.core.JIComServer.init(JIComServer.java:572)
+	at org.jinterop.dcom.core.JIComServer.initialise(JIComServer.java:481)
+	at org.jinterop.dcom.core.JIComServer.<init>(JIComServer.java:445)
+	at org.jvnet.hudson.wmi.WMI.connect(WMI.java:59)
+	at hudson.os.windows.ManagedWindowsServiceLauncher.launch(ManagedWindowsServiceLauncher.java:203)
+	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:298)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:48)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:82)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: rpc.FaultException: Received fault. (unknown)
+	at rpc.ConnectionOrientedEndpoint.call(ConnectionOrientedEndpoint.java:141)
+	at rpc.Stub.call(Stub.java:113)
+	at org.jinterop.dcom.core.JIComServer.init(JIComServer.java:568)
+	... 11 more
