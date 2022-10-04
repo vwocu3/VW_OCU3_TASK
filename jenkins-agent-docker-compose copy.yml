@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports: 
+      - "8080:8080"
+      - "50000:50000"
+    container_name: jenkins
+    volumes: 
+     - ./jenkins-data:/var/jenkins_home
+     - ./var/run/docker.sock:/var/run/docker.sock
+    expose:
+     - 4444
+  agent:
+    image: jenkins/ssh-agent:jdk11
+    privileged: true
+    user: root
+    container_name: agent
+    expose:
+      - 22
+    environment:
+      - JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDXfHS8vsL/n6lhAPECph1PyXFAmkNzS2pZ5f49P7RBRspJeTnvGEQWqU4R2TQI0QJdM0atZvO9aMF1eybRa02+hKaIW9oGDZvmTq+LKqvxdLE6x1suZ1ZPtmSHtv5hf6zqYoiHRqbBYa4j26IHkJONWHug4HctP8SkAZMUauCRU2lup9l7UqEW4fbr7W25Mqxzy4dhzvzKY6KVOSwOToJL7fKUIDusYAH4KKvtr3mdJ2f7TedfSAzpLxvpqubd9BbjjpbYESRX7SVoI/nrx1Yz5kchTtCDyUDE9CDaQXYslHDhzUABciXPeDCBHjy/z8T87kpc3nRgtGjulgyW9/6SrkdBk1eXKJaj0eceLXFY5chPOeA6tZJKHIK+AaSLxg4jMcsY7jgFx6dDv6EXzKdk2fKSNyTSLKY5NIfJQ7nfpJdzL+RcFLg7J4IBgjilguh85dF2pA9LviGt8h1UAHKFV+qM4Rq69SF7g/cNjsFekg9rrLxyYMivPBZWXHDCrH0= devops@ivieriu-nb
+      - GIT_SSL_NO_VERIFY=1
+
+#sudo docker-compose -f ./jenkins-agent-docker-compose.yml down     

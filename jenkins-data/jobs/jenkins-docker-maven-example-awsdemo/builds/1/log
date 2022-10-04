@@ -1,0 +1,61 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+Running as SYSTEM
+Building remotely on [8mha:////4GjP26QSmmZBVK8J1t0P6+V2rBYzec2iBVFP5xPvzuiJAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/fLMvJT88mLdPKB7AcWc+xnLAAAA[0mwindows-node (windows) in workspace D:\_Jenkins\workspace\jenkins-docker-maven-example-awsdemo
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nidhigupta12/AWSDemo.git
+ > git init /mnt/d/_Jenkins/D:\_Jenkins\workspace\jenkins-docker-maven-example-awsdemo # timeout=10
+Fetching upstream changes from https://github.com/nidhigupta12/AWSDemo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/nidhigupta12/AWSDemo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nidhigupta12/AWSDemo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1e6a422abe87e0167323d1ca91a6f01ae11d9f20 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1e6a422abe87e0167323d1ca91a6f01ae11d9f20 # timeout=10
+Commit message: "Update"
+First time build. Skipping changelog.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.6/apache-maven-3.8.6-bin.zip to D:\_Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_3.8.6 on windows-node
+ERROR: Build step failed with exception
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to windows-node
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)
+		at hudson.remoting.Channel.call(Channel.java:1000)
+		at hudson.FilePath.act(FilePath.java:1186)
+		at hudson.FilePath.act(FilePath.java:1175)
+		at hudson.FilePath.write(FilePath.java:2422)
+		at hudson.tools.DownloadFromUrlInstaller.performInstallation(DownloadFromUrlInstaller.java:83)
+		at hudson.tools.InstallerTranslator.getToolHome(InstallerTranslator.java:70)
+		at hudson.tools.ToolLocationNodeProperty.getToolHome(ToolLocationNodeProperty.java:109)
+		at hudson.tools.ToolInstallation.translateFor(ToolInstallation.java:221)
+		at hudson.tasks.Maven$MavenInstallation.forNode(Maven.java:683)
+		at hudson.tasks.Maven.perform(Maven.java:319)
+		at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+		at hudson.model.Build$BuildExecution.build(Build.java:199)
+		at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:524)
+		at hudson.model.Run.execute(Run.java:1899)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:107)
+		at hudson.model.Executor.run(Executor.java:449)
+java.lang.NullPointerException
+	at hudson.FilePath.mkdirs(FilePath.java:3613)
+	at hudson.FilePath$Write.invoke(FilePath.java:2437)
+	at hudson.FilePath$Write.invoke(FilePath.java:2425)
+	at hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:376)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:125)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

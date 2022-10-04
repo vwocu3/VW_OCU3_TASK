@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-23 14:14:22.589 UTC</timestamp>
+  <original>
+    <name>jenkins-docker-maven-github-prometheus-plugin</name>
+    <number>22</number>
+  </original>
+  <md5sum>9e6407535d314bb98c76c4f951c88bbd</md5sum>
+  <fileName>prometheus.jar</fileName>
+  <usages>
+    <entry>
+      <string>jenkins-docker-maven-github-prometheus-plugin</string>
+      <ranges>22</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

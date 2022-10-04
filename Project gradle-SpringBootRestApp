@@ -1,0 +1,29 @@
+GitHub project
+
+Project url
+https://github.com/kishancs2020/SpringBootRestApp/
+
+Restrict where this project can be run
+jenkins-agent
+
+Source Code Management
+Git
+Repository URL
+https://github.com/kishancs2020/SpringBootRestApp.git
+*/master
+
+Build Steps
+Invoke Gradle
+7.5.1
+
+Tasks
+build
+
+Post-build Actions
+Files to archive
+**/*.jar
+
+Publish JUnit test result report
+Test report XMLs
+**/*.xml
+

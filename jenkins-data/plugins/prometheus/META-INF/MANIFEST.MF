@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Hudson-Version: 2.319.3
+Plugin-Dependencies: pipeline-rest-api:2.21,cloudbees-disk-usage-simpl
+ e:0.10;resolution:=optional,junit:1.53,metrics:4.1.6.1
+Implementation-Title: prometheus
+Long-Name: Prometheus metrics plugin
+Implementation-Version: 2.0.11
+Group-Id: org.jenkins-ci.plugins
+Minimum-Java-Version: 1.8
+Support-Dynamic-Loading: false
+Specification-Vendor: Methodair
+Plugin-License-Name: Apache License, Version 2.0
+Specification-Title: Expose Jenkins metrics in prometheus format
+Plugin-ScmUrl: https://github.com/jenkinsci/prometheus-plugin/
+Plugin-Version: 2.0.11
+Jenkins-Version: 2.319.3
+Url: https://github.com/jenkinsci/prometheus-plugin
+Implementation-Vendor: Methodair
+Short-Name: prometheus
+Plugin-License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
+Plugin-Developers: Marky Jackson:devguy:
+Extension-Name: prometheus
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.2
+

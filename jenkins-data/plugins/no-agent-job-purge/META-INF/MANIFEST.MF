@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: devmachine
+Build-Jdk: 1.8.0_121
+Extension-Name: no-agent-job-purge
+Specification-Title: A Jenkins plugin to purge jobs from the build que
+ ue if there is no agent available to take it.
+Implementation-Title: no-agent-job-purge
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: no-agent-job-purge
+Long-Name: No Agent Job Purge
+Url: https://wiki.jenkins-ci.org/display/JENKINS/No+Agent+Job+Purge+Pl
+ ugin
+Plugin-Version: 1.2
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Paul Buckley:pbuckley4192:pbuckley4192@gmail.com
+

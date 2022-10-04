@@ -1,0 +1,50 @@
+Jenkins Prometheus Plugin expose an endpoint (default /prometheus) with metrics where a Prometheus Server can scrape.
+Documentation can be found here https://plugins.jenkins.io/prometheus
+Please note that the documentation is a WIP.
+
+
+pipeline {
+    agent { label 'master' }
+      stages {
+        stage('Initialize') {
+      steps {
+        echo 'log version info'  
+        sh 'mvn --version'
+      }
+    }
+        stage('Build') {
+            steps {
+                echo 'Building'
+                git 'https://github.com/jenkinsci/prometheus-plugin.git' 
+#                sh 'mvn -Dmaven.test.failure.ignore=true install'                
+                sh 'mvn clean install'
+                sh 'mvn hpi:hpi'                
+            }
+            post {
+                always {
+                    archiveArtifacts artifacts: 'target/**.hpi,target/**.jpi,target/**.jar', fingerprint: true
+                    junit(
+                  allowEmptyResults: true,
+                  testResults: '**/*.xml'
+                )  
+                }
+    }              
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing'
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying'
+#                sh "mvn --batch-mode -U deploy"		                
+                script {
+                    TAG_SELECTOR = readMavenPom().getVersion()
+                }
+                echo("TAG_SELECTOR=${TAG_SELECTOR}")                     
+            }
+        }        
+  }
+}

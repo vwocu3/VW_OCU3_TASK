@@ -1,0 +1,672 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+[8mha:////4N2CtjDBKetBRT4EG7P53a4kZ/gqXO8TbPyh/Ow5qePJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4N0o9grGJ8K9Hs9odcguemDtPRpSLaKYtzdd0RZMTFfZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BCmxpXPwFrv36q1Ix/LoSOyeU6R0MaV2pYHsKzlAc0TAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin
+[8mha:////4GQGMW+Cqy1tKHF3lBPZ3xhyl6HCiNnfjAy3YGtXFYfmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KwjGsbIrX0CqlMKwosF8zyB1E99YTVV2VMrPZ/Bb55fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JHLggDML2SycytlrcwitRpydQ3VWuN02j2R5Q+lgBf1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Initialize)
+[8mha:////4Bz9v3TzBBwrRC/h1oaji3ohn7iez+vM5gyvIoi+Yh9AAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+log version info
+[8mha:////4MnsbUJRe49wPTCEIoUrDXXDzJHHkcQtnTy5eiUcwqemAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ mvn --version
+Apache Maven 3.8.1 (05c21c65bdfed0f71a2f2ada8b84da59348c4c5d)
+Maven home: /opt/maven
+Java version: 11.0.16.1, vendor: Eclipse Adoptium, runtime: /opt/java/openjdk
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "5.10.102.1-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[8mha:////4NBV9MBwn1xwSt4Z9wuMATaFEDBgeatmuNE3tIrqlebcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4JDCYWXKcGpmw8ANDfGhXJBhAzWFpckla7FRP1PkLa8PAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4DrZyO19taDSw+fJysVMPmicSWp3kvsLzgV5ZIS6/j8EAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4LeNe9IIXIXgp+jfjciwLmFHvdIbJmH4SNHU+mPNt64bAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Build)
+[8mha:////4I+/Ju2IfWjwgYhi7NaGZNTgHAKoe0ZCcKQDjxr0jsD7AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] echo
+Building
+[8mha:////4ExVrzBjPzRhINyuuS48gtmR36cHa5mi5xeL5k9jtOeYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jenkinsci/prometheus-plugin.git # timeout=10
+Fetching upstream changes from https://github.com/jenkinsci/prometheus-plugin.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.36.2'
+ > git fetch --tags --force --progress -- https://github.com/jenkinsci/prometheus-plugin.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2ad77d6d818aa90666b568ddc4898705df23bdfc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+Commit message: "Merge pull request #442 from jenkinsci/dependabot/maven/org.slf4j-slf4j-api-2.0.1"
+ > git rev-list --no-walk 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+[8mha:////4NBN2mETmbnhS8cSFdpuk6NXGLFa/KIeDUglXN8qDgTKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/+Owku+AAAA[0m[Pipeline] sh
++ mvn '-Dmaven.test.failure.ignore=true' install
+[INFO] Scanning for projects...
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.25 is missing, no dependency information available
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:prometheus:hpi:2.0.14-SNAPSHOT
+[INFO] 
+[INFO] -----------------< org.jenkins-ci.plugins:prometheus >------------------
+[INFO] Building Prometheus metrics plugin 2.0.14-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate (default-validate) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate-hpi (default-validate-hpi) @ prometheus ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:display-info (display-info) @ prometheus ---
+[INFO] Maven Version: 3.8.1
+[INFO] JDK Version: 11.0.16.1 normalized as: 11.0.16-1
+[INFO] Java Vendor: Eclipse Adoptium
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 5.10.102.1-microsoft-standard-wsl2
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (display-info) @ prometheus ---
+[INFO] Adding ignore: module-info
+[INFO] Ignoring requireUpperBoundDeps in com.github.spotbugs:spotbugs-annotations
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (no-snapshots-in-release) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:addTestSources (test-in-groovy) @ prometheus ---
+[INFO] 
+[INFO] --- localizer-maven-plugin:1.31:generate (default) @ prometheus ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 20 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- access-modifier-checker:1.27:enforce (default-enforce) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:insert-test (default-insert-test) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:generateTestStubs (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for stub generation. Skipping.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- maven-antrun-plugin:3.0.0:run (createTempDir) @ prometheus ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:test-hpl (default-test-hpl) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/test-classes/the.hpl
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:resolve-test-dependencies (default-resolve-test-dependencies) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:compileTests (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for compilation. Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ prometheus ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running InjectedTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 114.097 s - in InjectedTest
+[INFO] Running org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.81 s - in org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.567 s - in org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.551 s - in org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Running org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.074 s - in org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Running org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 s - in org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.742 s - in org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 s - in org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.21:check (check) @ prometheus ---
+[INFO] Resolved signature org.codehaus.mojo.signature:java18 version as 1.0 from dependencyManagement
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-license-plugin:1.10:process (default) @ prometheus ---
+[INFO] Generated /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/WEB-INF/licenses.xml
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:hpi (default-hpi) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/META-INF/MANIFEST.MF
+[INFO] Checking for attached .jar artifact ...
+[INFO] Generating jar /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Exploding webapp...
+[INFO] Copy webapp webResources to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Assembling webapp prometheus in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Bundling direct dependency simpleclient-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_common-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_dropwizard-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_hotspot-0.16.0.jar
+[WARNING] Bundling transitive dependency simpleclient_tracer_common-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel_agent-0.16.0.jar (via simpleclient)
+[INFO] Bundling direct dependency slf4j-api-2.0.1.jar
+[INFO] Generating hpi /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:test-jar (maybe-test-jar) @ prometheus ---
+[INFO] Skipping packaging of the test-jar
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.2.3:check (spotbugs) > :spotbugs @ prometheus >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:spotbugs (spotbugs) @ prometheus ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.2.3:check (spotbugs) < :spotbugs @ prometheus <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:check (spotbugs) @ prometheus ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] 
+[INFO] --- maven-install-plugin:3.0.0-M1:install (default-install) @ prometheus ---
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.hpi
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/pom.xml to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:55 min
+[INFO] Finished at: 2022-09-23T15:11:56Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GesmRR4HhiUyPBW496d+e6LjN7igcxyJCta2cELU4ieAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzzd72C+AAAA[0m[Pipeline] sh
++ mvn clean install
+[INFO] Scanning for projects...
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.25 is missing, no dependency information available
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:prometheus:hpi:2.0.14-SNAPSHOT
+[INFO] 
+[INFO] -----------------< org.jenkins-ci.plugins:prometheus >------------------
+[INFO] Building Prometheus metrics plugin 2.0.14-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ prometheus ---
+[INFO] Deleting /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate (default-validate) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate-hpi (default-validate-hpi) @ prometheus ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:display-info (display-info) @ prometheus ---
+[INFO] Maven Version: 3.8.1
+[INFO] JDK Version: 11.0.16.1 normalized as: 11.0.16-1
+[INFO] Java Vendor: Eclipse Adoptium
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 5.10.102.1-microsoft-standard-wsl2
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (display-info) @ prometheus ---
+[INFO] Adding ignore: module-info
+[INFO] Ignoring requireUpperBoundDeps in com.github.spotbugs:spotbugs-annotations
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (no-snapshots-in-release) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:addTestSources (test-in-groovy) @ prometheus ---
+[INFO] 
+[INFO] --- localizer-maven-plugin:1.31:generate (default) @ prometheus ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 20 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ prometheus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/classes
+[INFO] 
+[INFO] --- access-modifier-checker:1.27:enforce (default-enforce) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:insert-test (default-insert-test) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:generateTestStubs (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for stub generation. Skipping.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- maven-antrun-plugin:3.0.0:run (createTempDir) @ prometheus ---
+[INFO] Executing tasks
+[INFO]     [mkdir] Created dir: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/tmp
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ prometheus ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/test-classes
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:test-hpl (default-test-hpl) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/test-classes/the.hpl
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:resolve-test-dependencies (default-resolve-test-dependencies) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:compileTests (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for compilation. Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ prometheus ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running InjectedTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.655 s - in InjectedTest
+[INFO] Running org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.122 s - in org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.811 s - in org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.641 s - in org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Running org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.671 s - in org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Running org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.941 s - in org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.915 s - in org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.241 s - in org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.21:check (check) @ prometheus ---
+[INFO] Resolved signature org.codehaus.mojo.signature:java18 version as 1.0 from dependencyManagement
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-license-plugin:1.10:process (default) @ prometheus ---
+[INFO] Generated /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/WEB-INF/licenses.xml
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:hpi (default-hpi) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/META-INF/MANIFEST.MF
+[INFO] Checking for attached .jar artifact ...
+[INFO] Generating jar /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Exploding webapp...
+[INFO] Copy webapp webResources to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Assembling webapp prometheus in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Bundling direct dependency simpleclient-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_common-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_dropwizard-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_hotspot-0.16.0.jar
+[WARNING] Bundling transitive dependency simpleclient_tracer_common-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel_agent-0.16.0.jar (via simpleclient)
+[INFO] Bundling direct dependency slf4j-api-2.0.1.jar
+[INFO] Generating hpi /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:test-jar (maybe-test-jar) @ prometheus ---
+[INFO] Skipping packaging of the test-jar
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.2.3:check (spotbugs) > :spotbugs @ prometheus >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:spotbugs (spotbugs) @ prometheus ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.2.3:check (spotbugs) < :spotbugs @ prometheus <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:check (spotbugs) @ prometheus ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] 
+[INFO] --- maven-install-plugin:3.0.0-M1:install (default-install) @ prometheus ---
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.hpi
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/pom.xml to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:00 min
+[INFO] Finished at: 2022-09-23T15:15:02Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4F/rn2JK6JSCu3EXK2+kafwSfrLqk6FbGA+8pbACulmWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN33s9Hm+AAAA[0m[Pipeline] sh
++ mvn hpi:hpi
+[INFO] Scanning for projects...
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.25 is missing, no dependency information available
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:prometheus:hpi:2.0.14-SNAPSHOT
+[INFO] 
+[INFO] -----------------< org.jenkins-ci.plugins:prometheus >------------------
+[INFO] Building Prometheus metrics plugin 2.0.14-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:hpi (default-cli) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/META-INF/MANIFEST.MF
+[INFO] Checking for attached .jar artifact ...
+[INFO] Generating jar /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Exploding webapp...
+[INFO] Copy webapp webResources to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Assembling webapp prometheus in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Bundling direct dependency simpleclient-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_common-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_dropwizard-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_hotspot-0.16.0.jar
+[WARNING] Bundling transitive dependency simpleclient_tracer_common-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel_agent-0.16.0.jar (via simpleclient)
+[INFO] Bundling direct dependency slf4j-api-2.0.1.jar
+[INFO] Generating hpi /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.993 s
+[INFO] Finished at: 2022-09-23T15:15:23Z
+[INFO] ------------------------------------------------------------------------
+Post stage
+[8mha:////4PjK4tVVD/KT6KWywOA07zrzcoWp861ak3MNAy2WnHAKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LwbP6+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+Recording fingerprints
+[8mha:////4KwkO6y8ZcfXB5zM74SeVGhzmvV5le/9ZPzcx92Z6fdiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBvPBd+e+AAAA[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4DzsJwONAFj70QCb54zhkzcuW5MCNN8PPT7e7R66CSkRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] }
+[8mha:////4NY2lnWwDoiM8IuznP2uDtqPXwR6JzZmOWSw8LsvMv5IAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRaBEVreWGF5jEGDvWnbEvJBUv4mv8AYtIVGyx2tlmXm9Y5wRHSlZ4g4PD3DkRw2jLEhOl4RpoEp4uoiPMFIxQZlLUm9OCitjAkqqGlYSNwS5QdmgZttLrh26CRtucOZXvIKF2/R2eUMliZp34C3OC3W3sM+HP81cAc4wM9b4t1bYfF15Zm74AAAA=[0m[Pipeline] // stage
+[8mha:////4HNcN8frCOihlNNxcZHyzoPbaTfp9eOHwKmnPWE3cqhGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYQjRXSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNIF8KLcEAAAA=[0m[Pipeline] stage
+[8mha:////4LIblDZyoI6YrhJxEDZfCy7jiZHpKjs94Ful0aUjWGWMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Test)
+[8mha:////4OozsQfEnnccnDUgLv25tn8f+slcxbzdD5Gf1H2OyU23AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] echo
+Testing
+[8mha:////4PUjIvEpVxTxCaCdd1e/r2CIei5aZW6xHmy90KhFFPhVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.25 is missing, no dependency information available
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:prometheus:hpi:2.0.14-SNAPSHOT
+[INFO] 
+[INFO] -----------------< org.jenkins-ci.plugins:prometheus >------------------
+[INFO] Building Prometheus metrics plugin 2.0.14-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate (default-validate) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate-hpi (default-validate-hpi) @ prometheus ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:display-info (display-info) @ prometheus ---
+[INFO] Maven Version: 3.8.1
+[INFO] JDK Version: 11.0.16.1 normalized as: 11.0.16-1
+[INFO] Java Vendor: Eclipse Adoptium
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 5.10.102.1-microsoft-standard-wsl2
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (display-info) @ prometheus ---
+[INFO] Adding ignore: module-info
+[INFO] Ignoring requireUpperBoundDeps in com.github.spotbugs:spotbugs-annotations
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (no-snapshots-in-release) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:addTestSources (test-in-groovy) @ prometheus ---
+[INFO] 
+[INFO] --- localizer-maven-plugin:1.31:generate (default) @ prometheus ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 20 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- access-modifier-checker:1.27:enforce (default-enforce) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:insert-test (default-insert-test) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:generateTestStubs (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for stub generation. Skipping.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- maven-antrun-plugin:3.0.0:run (createTempDir) @ prometheus ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:test-hpl (default-test-hpl) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/test-classes/the.hpl
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:resolve-test-dependencies (default-resolve-test-dependencies) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:compileTests (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for compilation. Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ prometheus ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running InjectedTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.94 s - in InjectedTest
+[INFO] Running org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.188 s - in org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.66 s - in org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.228 s - in org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Running org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.867 s - in org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Running org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.572 s - in org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.877 s - in org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 s - in org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.21:check (check) @ prometheus ---
+[INFO] Resolved signature org.codehaus.mojo.signature:java18 version as 1.0 from dependencyManagement
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:24 min
+[INFO] Finished at: 2022-09-23T15:16:52Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4IIIWVMkXgL2l3+J3NTfXkvos8IfeA4vjVOJAMQVmhWkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFAXH9DvgAAAA==[0m[Pipeline] }
+[8mha:////4I5L6eLOFm1mIojz9Bus2yxxOOou7essO6GeHNqiNp9TAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8bCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DXO/JP++AAAA[0m[Pipeline] // stage
+[8mha:////4C/QcP4L9EYrCQeal4dDqLglMV7ssmyLuRYra85CT34IAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIQokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG0Z8kYzBAAAA[0m[Pipeline] stage
+[8mha:////4GGXop2nh6V6hVtOkXf5nRbtP4i92dMe/gNkxuHitamHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Deploy)
+[8mha:////4Mit6V1outXwM29rxfEOQO3ANBAldf6uYnKiCd6EnJTcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] echo
+Deploying
+[8mha:////4ND96pyDpsRy006BtziB4Vsew+X35/gBX7ApbfD8Imf+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGMzKKgvgAAAA==[0m[Pipeline] sh
++ mvn --batch-mode -U deploy
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.25/maven-hpi-plugin-3.25.pom
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.25 is missing, no dependency information available
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jenkins-ci/tools/maven-hpi-plugin/3.25/maven-hpi-plugin-3.25.jar
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:prometheus:hpi:2.0.14-SNAPSHOT
+[INFO] 
+[INFO] -----------------< org.jenkins-ci.plugins:prometheus >------------------
+[INFO] Building Prometheus metrics plugin 2.0.14-SNAPSHOT
+[INFO] --------------------------------[ hpi ]---------------------------------
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom
+[INFO] Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7.1 kB at 7.0 kB/s)
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+[INFO] Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar (34 kB at 78 kB/s)
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate (default-validate) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:validate-hpi (default-validate-hpi) @ prometheus ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:display-info (display-info) @ prometheus ---
+[INFO] Maven Version: 3.8.1
+[INFO] JDK Version: 11.0.16.1 normalized as: 11.0.16-1
+[INFO] Java Vendor: Eclipse Adoptium
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 5.10.102.1-microsoft-standard-wsl2
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (display-info) @ prometheus ---
+[INFO] Adding ignore: module-info
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Ignoring requireUpperBoundDeps in com.github.spotbugs:spotbugs-annotations
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (no-snapshots-in-release) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:addTestSources (test-in-groovy) @ prometheus ---
+[INFO] 
+[INFO] --- localizer-maven-plugin:1.31:generate (default) @ prometheus ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 20 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- access-modifier-checker:1.27:enforce (default-enforce) @ prometheus ---
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:insert-test (default-insert-test) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:generateTestStubs (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for stub generation. Skipping.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- maven-antrun-plugin:3.0.0:run (createTempDir) @ prometheus ---
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ prometheus ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ prometheus ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:test-hpl (default-test-hpl) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/test-classes/the.hpl
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:resolve-test-dependencies (default-resolve-test-dependencies) @ prometheus ---
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.13.1:compileTests (test-in-groovy) @ prometheus ---
+[INFO] No sources specified for compilation. Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ prometheus ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running InjectedTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.092 s - in InjectedTest
+[INFO] Running org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.836 s - in org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.459 s - in org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest
+[INFO] Running org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.499 s - in org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest
+[INFO] Running org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.922 s - in org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest
+[INFO] Running org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.514 s - in org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.299 s - in org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest
+[INFO] Running org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.21:check (check) @ prometheus ---
+[INFO] Resolved signature org.codehaus.mojo.signature:java18 version as 1.0 from dependencyManagement
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-license-plugin:1.10:process (default) @ prometheus ---
+[INFO] Generated /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/WEB-INF/licenses.xml
+[INFO] 
+[INFO] --- maven-hpi-plugin:3.25:hpi (default-hpi) @ prometheus ---
+[INFO] Generating /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus/META-INF/MANIFEST.MF
+[INFO] Checking for attached .jar artifact ...
+[INFO] Generating jar /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar
+[INFO] Exploding webapp...
+[INFO] Copy webapp webResources to /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Assembling webapp prometheus in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus
+[INFO] Bundling direct dependency simpleclient-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_common-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_dropwizard-0.16.0.jar
+[INFO] Bundling direct dependency simpleclient_hotspot-0.16.0.jar
+[WARNING] Bundling transitive dependency simpleclient_tracer_common-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel-0.16.0.jar (via simpleclient)
+[WARNING] Bundling transitive dependency simpleclient_tracer_otel_agent-0.16.0.jar (via simpleclient)
+[INFO] Bundling direct dependency slf4j-api-2.0.1.jar
+[INFO] Generating hpi /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] Building jar: /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:test-jar (maybe-test-jar) @ prometheus ---
+[INFO] Skipping packaging of the test-jar
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.2.3:check (spotbugs) > :spotbugs @ prometheus >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:spotbugs (spotbugs) @ prometheus ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.2.3:check (spotbugs) < :spotbugs @ prometheus <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.2.3:check (spotbugs) @ prometheus ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] 
+[INFO] --- maven-install-plugin:3.0.0-M1:install (default-install) @ prometheus ---
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.hpi to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.hpi
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/pom.xml to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.pom
+[INFO] Installing /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/prometheus.jar to /root/.m2/repository/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ prometheus ---
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+[INFO] Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+[INFO] Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 12 kB/s)
+[INFO] Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 73 kB/s)
+[INFO] Downloaded from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (239 kB at 160 kB/s)
+[INFO] Downloading from maven.jenkins-ci.org: https://repo.jenkins-ci.org/snapshots/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/maven-metadata.xml
+[INFO] Uploading to maven.jenkins-ci.org: https://repo.jenkins-ci.org/snapshots/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-20220923.152012-1.hpi
+[INFO] Uploading to maven.jenkins-ci.org: https://repo.jenkins-ci.org/snapshots/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-20220923.152012-1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:16 min
+[INFO] Finished at: 2022-09-23T15:20:13Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy (default-deploy) on project prometheus: Failed to deploy artifacts: Could not transfer artifact org.jenkins-ci.plugins:prometheus:hpi:2.0.14-20220923.152012-1 from/to maven.jenkins-ci.org (https://repo.jenkins-ci.org/snapshots/): authentication failed for https://repo.jenkins-ci.org/snapshots/org/jenkins-ci/plugins/prometheus/2.0.14-SNAPSHOT/prometheus-2.0.14-20220923.152012-1.hpi, status: 401 Unauthorized -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4Ddid5kAfynOytjKBHUn662Tt2rlZxYQDfDkgHv56D2TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AH8/EyevgAAAA==[0m[Pipeline] }
+[8mha:////4O5vAZXkSa/ZTeQJJalvifLe9SoPNjn1N4u0yVmksIHIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIOEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/PHxcivgAAAA==[0m[Pipeline] // stage
+[8mha:////4AzsI1aNnYoYlvI1KDow/VUtI0aIIqQn+btG9FDHBjGMAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9OLA1qvQAAAA==[0m[Pipeline] }
+[8mha:////4G1L4KHQQf6451SGwWkV80nBfWbSUbT7/Lq/Wi+lRD/zAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUjJVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXZAJyb0AAAA=[0m[Pipeline] // node
+[8mha:////4JVvgc+7qpWBCFcqVHpIJBuRCQ3WZ0la+8s8sqcGYrMrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABvarvm9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

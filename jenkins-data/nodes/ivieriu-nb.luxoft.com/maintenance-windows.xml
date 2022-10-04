@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<java.util.Collections_-SynchronizedSortedSet serialization="custom">
+  <java.util.Collections_-SynchronizedCollection>
+    <default>
+      <c class="sorted-set"/>
+      <mutex class="java.util.Collections$SynchronizedSortedSet" reference="../../.."/>
+    </default>
+  </java.util.Collections_-SynchronizedCollection>
+  <java.util.Collections_-SynchronizedSortedSet>
+    <default>
+      <ss reference="../../../java.util.Collections_-SynchronizedCollection/default/c"/>
+    </default>
+  </java.util.Collections_-SynchronizedSortedSet>
+</java.util.Collections_-SynchronizedSortedSet>
