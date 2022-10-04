@@ -1,0 +1,61 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+[8mha:////4N2CtjDBKetBRT4EG7P53a4kZ/gqXO8TbPyh/Ow5qePJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4N0o9grGJ8K9Hs9odcguemDtPRpSLaKYtzdd0RZMTFfZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BCmxpXPwFrv36q1Ix/LoSOyeU6R0MaV2pYHsKzlAc0TAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin
+[8mha:////4GQGMW+Cqy1tKHF3lBPZ3xhyl6HCiNnfjAy3YGtXFYfmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KwjGsbIrX0CqlMKwosF8zyB1E99YTVV2VMrPZ/Bb55fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JHLggDML2SycytlrcwitRpydQ3VWuN02j2R5Q+lgBf1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (log version info)
+[8mha:////4Bz9v3TzBBwrRC/h1oaji3ohn7iez+vM5gyvIoi+Yh9AAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jenkinsci/prometheus-plugin.git # timeout=10
+Fetching upstream changes from https://github.com/jenkinsci/prometheus-plugin.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/jenkinsci/prometheus-plugin.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2ad77d6d818aa90666b568ddc4898705df23bdfc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+Commit message: "Merge pull request #442 from jenkinsci/dependabot/maven/org.slf4j-slf4j-api-2.0.1"
+ > git rev-list --no-walk 2ad77d6d818aa90666b568ddc4898705df23bdfc # timeout=10
+[8mha:////4MnsbUJRe49wPTCEIoUrDXXDzJHHkcQtnTy5eiUcwqemAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ mvn --version
+Apache Maven 3.2.2 (45f7c06d68e745d05611f7fd14efb6594181933e; 2014-06-17T13:51:42+00:00)
+Maven home: /opt/maven
+Java version: 11.0.16.1, vendor: Eclipse Adoptium
+Java home: /opt/java/openjdk
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.10.102.1-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+[8mha:////4PMpBWU/Dv77a/gSmeoNucyi5wOu/XuFBy0Df+StMBAZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED9uwSoQvAAAAA==[0m[Pipeline] sh
++ mvn clean install
+[INFO] Scanning for projects...
+Downloading: http://repo.maven.apache.org/maven2/io/jenkins/tools/bom/bom-2.332.x/1607.va_c1576527071/bom-2.332.x-1607.va_c1576527071.pom
+Downloading: http://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-bom/2.319.3/jenkins-bom-2.319.3.pom
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.jenkins-ci.plugins:prometheus:2.0.14-SNAPSHOT (/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/pom.xml) has 5 errors
+[ERROR]     Non-resolvable import POM: Could not transfer artifact io.jenkins.tools.bom:bom-2.332.x:pom:1607.va_c1576527071 from/to central (http://repo.maven.apache.org/maven2): Failed to transfer file: http://repo.maven.apache.org/maven2/io/jenkins/tools/bom/bom-2.332.x/1607.va_c1576527071/bom-2.332.x-1607.va_c1576527071.pom. Return code is: 501 , ReasonPhrase:HTTPS Required. @ io.jenkins.tools.bom:bom-2.319.x:1607.va_c1576527071, /root/.m2/repository/io/jenkins/tools/bom/bom-2.319.x/1607.va_c1576527071/bom-2.319.x-1607.va_c1576527071.pom, line 163, column 19 -> [Help 2]
+[ERROR]     Non-resolvable import POM: Could not transfer artifact org.jenkins-ci.main:jenkins-bom:pom:2.319.3 from/to central (http://repo.maven.apache.org/maven2): Failed to transfer file: http://repo.maven.apache.org/maven2/org/jenkins-ci/main/jenkins-bom/2.319.3/jenkins-bom-2.319.3.pom. Return code is: 501 , ReasonPhrase:HTTPS Required. @ org.jenkins-ci.plugins:plugin:4.38, /root/.m2/repository/org/jenkins-ci/plugins/plugin/4.38/plugin-4.38.pom, line 120, column 19 -> [Help 2]
+[ERROR]     'dependencies.dependency.version' for org.jenkins-ci.plugins:junit:jar is missing. @ line 123, column 17
+[ERROR]     'dependencies.dependency.version' for net.jcip:jcip-annotations:jar is missing. @ org.jenkins-ci.plugins:plugin:4.38, /root/.m2/repository/org/jenkins-ci/plugins/plugin/4.38/plugin-4.38.pom, line 230, column 17
+[ERROR]     'dependencies.dependency.version' for commons-logging:commons-logging:jar is missing. @ org.jenkins-ci.plugins:plugin:4.38, /root/.m2/repository/org/jenkins-ci/plugins/plugin/4.38/plugin-4.38.pom, line 245, column 17
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+[8mha:////4OtcJqwSPdCvBEk57zYT3s/IDEPWIvmMqbfQsq6OEXp3AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoY+NY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AqUpLPL0AAAA=[0m[Pipeline] }
+[8mha:////4P6Q1MfNbojSjyBACiiHA3MasA6GIRsgpxbK+e/dZV2tAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMhZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AozIimL0AAAA=[0m[Pipeline] // stage
+[8mha:////4CJr2pa6ae0a+4GnjlFFFisvo64D4czXfd3p4YtEiT6UAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B5XiFqL0AAAA=[0m[Pipeline] }
+[8mha:////4MNtCDJOs1JreXjuwNJxhriuQbSCnMjXsX+rOSafnz0kAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR/2xIELvQAAAA==[0m[Pipeline] // node
+[8mha:////4OptYiPChYsfzaJYhI6IY4fxLALj7naTSAGmYaYgnwL+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBcCimzr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

@@ -1,0 +1,53 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+[8mha:////4N2CtjDBKetBRT4EG7P53a4kZ/gqXO8TbPyh/Ow5qePJAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4N0o9grGJ8K9Hs9odcguemDtPRpSLaKYtzdd0RZMTFfZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4MT1LpFFLqE89qSnndZg09gLtFQf7URlHFv+OumKYhrBAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYp/eT83ILSktQi/azUvOzMvGJVI5fE9NS8En0A4Zrl388AAAA=[0mjenkins-agent in /home/jenkins/agent/workspace/jenkins-docker-maven-github-example
+[8mha:////4GQGMW+Cqy1tKHF3lBPZ3xhyl6HCiNnfjAy3YGtXFYfmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KwjGsbIrX0CqlMKwosF8zyB1E99YTVV2VMrPZ/Bb55fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JHLggDML2SycytlrcwitRpydQ3VWuN02j2R5Q+lgBf1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4Bz9v3TzBBwrRC/h1oaji3ohn7iez+vM5gyvIoi+Yh9AAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] isUnix
+[8mha:////4MnsbUJRe49wPTCEIoUrDXXDzJHHkcQtnTy5eiUcwqemAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] readFile
+[8mha:////4NBV9MBwn1xwSt4Z9wuMATaFEDBgeatmuNE3tIrqlebcAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4JDCYWXKcGpmw8ANDfGhXJBhAzWFpckla7FRP1PkLa8PAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IV0xHd4ZDVRw2SyXXVsESNCKbjkXgzbdGx/bZvatgZUAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KExM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8ANQIl770AAAA=[0m[Pipeline] }
+[8mha:////4LLDJYSqZQ/N4QiFfIx8OhmqqiL4axBt1pJq2ToEqQ+dAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny7U6Q7T9G7eE2vQAAAA==[0m[Pipeline] // node
+[8mha:////4HBIZZ/xVZ3hcXfNxQqQU5/bRxK6VpV+zeFPv1iqTUs0AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny7V6Q7T5g9IZ8vQAAAA==[0m[Pipeline] End of Pipeline
+java.nio.file.NoSuchFileException: /home/jenkins/agent/workspace/jenkins-docker-maven-github-example/Dockerfile
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:156)
+	at hudson.FilePath.newInputStreamDenyingSymlinkAsNeeded(FilePath.java:2201)
+	at hudson.FilePath$Read.invoke(FilePath.java:2284)
+	at hudson.FilePath$Read.invoke(FilePath.java:2270)
+	at hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:376)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)
+Caused: java.io.IOException
+	at hudson.remoting.FastPipedInputStream.read(FastPipedInputStream.java:171)
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	at java.base/java.io.Reader.read(Reader.java:229)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1432)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1411)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1208)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1022)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:2839)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:2865)
+	at org.jenkinsci.plugins.workflow.steps.ReadFileStep$Execution.run(ReadFileStep.java:110)
+	at org.jenkinsci.plugins.workflow.steps.ReadFileStep$Execution.run(ReadFileStep.java:96)
+	at org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE

@@ -1,0 +1,575 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1119.1121.vc43d0fc45561">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-InjectedTest.xml</file>
+      <name>InjectedTest</name>
+      <stdout>Running tests for org.jenkins-ci.plugins:prometheus:2.0.14-SNAPSHOT
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: S
+...[truncated 2555 bytes]...
+jobs
+Sep 23, 2022 3:32:59 PM com.cloudbees.simplediskusage.QuickDiskUsagePlugin$3 run
+INFO: Waiting for Jenkins to be up before computing disk usage
+Sep 23, 2022 3:32:59 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+Sep 23, 2022 3:33:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Sep 23, 2022 3:33:04 PM jenkins.model.Jenkins cleanUp
+INFO: Stopping Jenkins
+Sep 23, 2022 3:33:05 PM jenkins.model.Jenkins cleanUp
+INFO: Jenkins stopped
+</stdout>
+      <duration>44.368</duration>
+      <time>44.368</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.095</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-collectDiskUsage.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-countUnstableBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-path.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-appendStatusLabel.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-processingDisabledBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.01</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-perBuildMetrics.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-appendParamLabel.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-fetchTestResults.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-countAbortedBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-countNotBuiltBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-collectNodeStatus.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-useAuthenticatedEndpoint.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-countFailedBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-labeledBuildParameterNames.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-defaultNamespace.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.834</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/config.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-jobAttributeName.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-countSuccessfulBuilds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.008</duration>
+          <className>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyCheck</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/PrometheusConfiguration/help-collectingMetricsPeriodInSeconds.jelly</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.053</duration>
+          <className>org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests</className>
+          <testName>testCliSanity</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>org.jvnet.hudson.test.PluginAutomaticTestBuilder$OtherTests</className>
+          <testName>testPluginActive</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>org.jvnet.hudson.test.junit.FailedTest</className>
+          <testName>org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>org.jvnet.hudson.test.PropertiesTestSuite$PropertiesTest</className>
+          <testName>org/jenkinsci/plugins/prometheus/config/Messages.properties</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>8.629</duration>
+      <time>8.629</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>5.209</duration>
+          <className>org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest</className>
+          <testName>shouldProduceMetrics</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.019</duration>
+          <className>org.jenkinsci.plugins.prometheus.DiskUsageCollectorTest</className>
+          <testName>shouldNotProduceMetricsWhenDisabled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>5.424</duration>
+      <time>5.424</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>3.081</duration>
+          <className>org.jenkinsci.plugins.prometheus.JenkinsStatusCollectorTest</className>
+          <testName>shouldProduceNodeMetrics</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>4.793</duration>
+      <time>4.793</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>3.039</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetValueFromEnvForCollectDiskUsage</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.089</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldReturnOk(1) [0]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.037</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldReturnOk(100) [1]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldReturnOk(5.7) [2]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.036</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldReturnOk(2147483647) [3]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.122</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetValueFromEnvForCollectingMetricsPeriodInSeconds</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.035</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValueWhenEnvCannotBeConvertedToLongORNegativeValue(0) [0]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.037</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValueWhenEnvCannotBeConvertedToLongORNegativeValue(-1) [1]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.034</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValueWhenEnvCannotBeConvertedToLongORNegativeValue(test) [2]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValueWhenEnvCannotBeConvertedToLongORNegativeValue(null) [3]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.017</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValueWhenEnvCannotBeConvertedToLongORNegativeValue(100L) [4]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.013</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldSetDefaultValue</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.032</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldGetErrorWhenNotPositiveNumber(0) [0]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldGetErrorWhenNotPositiveNumber(-1) [1]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.014</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldGetErrorWhenNotPositiveNumber(test) [2]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.01</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldGetErrorWhenNotPositiveNumber(null) [3]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.008</duration>
+          <className>org.jenkinsci.plugins.prometheus.config.PrometheusConfigurationTest</className>
+          <testName>shouldGetErrorWhenNotPositiveNumber(100L) [4]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>6.508</duration>
+      <time>6.508</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>4.154</duration>
+          <className>org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest</className>
+          <testName>shouldThrowExceptionWhenAuthenticationEnabledAndInsufficientPermission</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.273</duration>
+          <className>org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest</className>
+          <testName>shouldReturnMetrics</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <className>org.jenkinsci.plugins.prometheus.rest.PrometheusActionTest</className>
+          <testName>shouldThrowExceptionWhenDoesNotMatchPath</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>0.914</duration>
+      <time>0.914</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.692</duration>
+          <className>org.jenkinsci.plugins.prometheus.service.PrometheusAsyncWorkerTest</className>
+          <testName>shouldCollectMetrics</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest</name>
+      <stdout>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/root/.m2/repository/org/slf4j/slf4j-jdk14/1.7.32/slf4j-jdk14-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</stdout>
+      <duration>5.562</duration>
+      <time>5.562</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.322</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest</className>
+          <testName>verifyGetNamespaceWhenEnvIsNonEmpty</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.026</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest</className>
+          <testName>verifyGetNamespaceWhenEnvIsNotSetOrEmpty(true) [0]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest</className>
+          <testName>verifyGetNamespaceWhenEnvIsNotSetOrEmpty(false) [1]</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.ConfigurationUtilsTest</className>
+          <testName>verifyGetSubSystem</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/jenkins_home/workspace/jenkins-docker-maven-github-prometheus-plugin/target/surefire-reports/TEST-org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest.xml</file>
+      <name>org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest</name>
+      <duration>0.208</duration>
+      <time>0.208</time>
+      <nodeId>19</nodeId>
+      <enclosingBlocks>
+        <string>12</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.014</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest</className>
+          <testName>master_node_histogram_format</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest</className>
+          <testName>master_node_count_format</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest</className>
+          <testName>named_node_count_format</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>org.jenkinsci.plugins.prometheus.util.JenkinsNodeBuildsSampleBuilderTest</className>
+          <testName>named_node_histogram_format</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>76.406</duration>
+  <skipOldReports>false</skipOldReports>
+  <keepLongStdio>false</keepLongStdio>
+</result>

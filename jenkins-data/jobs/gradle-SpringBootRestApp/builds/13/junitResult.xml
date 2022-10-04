@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1119.1121.vc43d0fc45561">
+  <suites>
+    <suite>
+      <file>/home/jenkins/agent/workspace/gradle-SpringBootRestApp/build/test-results/test/TEST-com.kkjavatutorials.SpringBootRestApp.SpringBootRestAppApplicationTests.xml</file>
+      <name>com.kkjavatutorials.SpringBootRestApp.SpringBootRestAppApplicationTests</name>
+      <stdout>11:34:44.678 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:34:44.731 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDel
+...[truncated 9156 chars]...
+022-09-23 11:34:47.537  INFO 424 --- [    Test worker] c.k.S.SpringBootRestAppApplicationTests  : No active profile set, falling back to default profiles: default
+2022-09-23 11:34:51.752  INFO 424 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &apos;applicationTaskExecutor&apos;
+2022-09-23 11:34:52.728  INFO 424 --- [    Test worker] c.k.S.SpringBootRestAppApplicationTests  : Started SpringBootRestAppApplicationTests in 6.915 seconds (JVM running for 15.081)
+</stdout>
+      <stderr></stderr>
+      <duration>0.692</duration>
+      <timestamp>2022-09-23T11:34:52</timestamp>
+      <time>0.692</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.692</duration>
+          <className>com.kkjavatutorials.SpringBootRestApp.SpringBootRestAppApplicationTests</className>
+          <testName>contextLoads()</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.692</duration>
+  <skipOldReports>false</skipOldReports>
+  <keepLongStdio>false</keepLongStdio>
+</result>

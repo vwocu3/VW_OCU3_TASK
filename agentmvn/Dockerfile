@@ -1,0 +1,1 @@
+FROM mjslabs/jenkins-jnlp-maven:3.6-jdk-11

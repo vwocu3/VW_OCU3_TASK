@@ -1,0 +1,66 @@
+Started at Tue Oct 04 11:43:18 GMT 2022
+Processing CI-with-Jenkins-and-Docker-for-cpp
+Offering CI-with-Jenkins-and-Docker-for-cpp to Project Build Discarder
+Processing docker-job-example
+Offering docker-job-example to Project Build Discarder
+Processing gradle
+Offering gradle to Project Build Discarder
+Processing gradle-SpringBootRestApp
+Offering gradle-SpringBootRestApp to Project Build Discarder
+Processing jenkins-docker-maven-example-awsdemo
+Offering jenkins-docker-maven-example-awsdemo to Project Build Discarder
+Processing jenkins-docker-maven-github-example
+Offering jenkins-docker-maven-github-example to Project Build Discarder
+Processing jenkins-docker-maven-github-prometheus-plugin
+Offering jenkins-docker-maven-github-prometheus-plugin to Project Build Discarder
+Processing pipeline-jenkins-exampe-TechPrimers
+Offering pipeline-jenkins-exampe-TechPrimers to Project Build Discarder
+Processing pipeline-modern-cmake-sample
+Offering pipeline-modern-cmake-sample to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Finished at Tue Oct 04 11:43:18 GMT 2022. 7ms
+Started at Tue Oct 04 12:43:18 GMT 2022
+Processing CI-with-Jenkins-and-Docker-for-cpp
+Offering CI-with-Jenkins-and-Docker-for-cpp to Project Build Discarder
+Processing docker-job-example
+Offering docker-job-example to Project Build Discarder
+Processing gradle
+Offering gradle to Project Build Discarder
+Processing gradle-SpringBootRestApp
+Offering gradle-SpringBootRestApp to Project Build Discarder
+Processing jenkins-docker-maven-example-awsdemo
+Offering jenkins-docker-maven-example-awsdemo to Project Build Discarder
+Processing jenkins-docker-maven-github-example
+Offering jenkins-docker-maven-github-example to Project Build Discarder
+Processing jenkins-docker-maven-github-prometheus-plugin
+Offering jenkins-docker-maven-github-prometheus-plugin to Project Build Discarder
+Processing pipeline-jenkins-exampe-TechPrimers
+Offering pipeline-jenkins-exampe-TechPrimers to Project Build Discarder
+Processing pipeline-modern-cmake-sample
+Offering pipeline-modern-cmake-sample to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Finished at Tue Oct 04 12:43:18 GMT 2022. 2ms
+Started at Tue Oct 04 13:43:18 GMT 2022
+Processing CI-with-Jenkins-and-Docker-for-cpp
+Offering CI-with-Jenkins-and-Docker-for-cpp to Project Build Discarder
+Processing docker-job-example
+Offering docker-job-example to Project Build Discarder
+Processing gradle
+Offering gradle to Project Build Discarder
+Processing gradle-SpringBootRestApp
+Offering gradle-SpringBootRestApp to Project Build Discarder
+Processing jenkins-docker-maven-example-awsdemo
+Offering jenkins-docker-maven-example-awsdemo to Project Build Discarder
+Processing jenkins-docker-maven-github-example
+Offering jenkins-docker-maven-github-example to Project Build Discarder
+Processing jenkins-docker-maven-github-prometheus-plugin
+Offering jenkins-docker-maven-github-prometheus-plugin to Project Build Discarder
+Processing pipeline-jenkins-exampe-TechPrimers
+Offering pipeline-jenkins-exampe-TechPrimers to Project Build Discarder
+Processing pipeline-modern-cmake-sample
+Offering pipeline-modern-cmake-sample to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Finished at Tue Oct 04 13:43:18 GMT 2022. 2ms

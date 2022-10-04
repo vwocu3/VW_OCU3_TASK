@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>ivieriu-nb.luxoft.com</name>
+  <description></description>
+  <remoteFS>d:\_Jenkins\</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.os.windows.ManagedWindowsServiceLauncher" plugin="windows-slaves@1.8.1">
+    <userName>LUXOFT\IVieriu</userName>
+    <password>{AQAAABAAAAAQR3Ap+s34Yt0E4CrnBRZOUm+OTtSrMMa7Zs8A6GFOQ9Q=}</password>
+    <account class="hudson.os.windows.ManagedWindowsServiceAccount$LocalSystem"/>
+    <host>ivieriu-nb.luxoft.com</host>
+  </launcher>
+  <label></label>
+  <nodeProperties/>
+</slave>

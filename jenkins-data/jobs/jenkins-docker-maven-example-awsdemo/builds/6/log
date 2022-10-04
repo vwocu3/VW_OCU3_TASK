@@ -1,0 +1,59 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+Running as SYSTEM
+Building remotely on [8mha:////4BDsxsMwAlYOVNcIJaxdD4peD5mkLXroocideHsMJY9IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/azUvOzMvGLdxPTUvBIAjWbCM8wAAAA=[0mjenkins-agent in workspace /home/jenkins/agent/workspace/jenkins-docker-maven-example-awsdemo
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nidhigupta12/AWSDemo.git
+ > git init /home/jenkins/agent/workspace/jenkins-docker-maven-example-awsdemo # timeout=10
+Fetching upstream changes from https://github.com/nidhigupta12/AWSDemo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/nidhigupta12/AWSDemo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nidhigupta12/AWSDemo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 1e6a422abe87e0167323d1ca91a6f01ae11d9f20 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1e6a422abe87e0167323d1ca91a6f01ae11d9f20 # timeout=10
+Commit message: "Update"
+ > git rev-list --no-walk 1e6a422abe87e0167323d1ca91a6f01ae11d9f20 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/2.2.1/apache-maven-2.2.1-bin.zip to /home/jenkins/agent/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_2.2.1 on jenkins-agent
+[jenkins-docker-maven-example-awsdemo] $ /home/jenkins/agent/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_2.2.1/bin/mvn package
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building LoginWebApp Maven Webapp
+[INFO]    task-segment: [package]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.pom
+[8mha:////4DL1742xqEdYE3Gzr8n1M4LaZn3t9owsDRRnk/irbCKsAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to get resource 'org.apache.maven.plugins:maven-resources-plugin:pom:2.3' from repository central (http://jcenter.bintray.com): Error transferring file: Unexpected end of file from server
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.pom
+[8mha:////4DL1742xqEdYE3Gzr8n1M4LaZn3t9owsDRRnk/irbCKsAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to get resource 'org.apache.maven.plugins:maven-resources-plugin:pom:2.3' from repository central (http://jcenter.bintray.com): Error transferring file: Unexpected end of file from server
+[INFO] ------------------------------------------------------------------------
+[8mha:////4M/myKbg7VtEFxwRjLLQYZIF2/eaUonluGEWpZK8+mtTAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] BUILD ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] Error building POM (may not be this project's POM).
+
+
+Project ID: org.apache.maven.plugins:maven-resources-plugin
+
+Reason: POM 'org.apache.maven.plugins:maven-resources-plugin' not found in repository: Unable to download the artifact from any repository
+
+  org.apache.maven.plugins:maven-resources-plugin:pom:2.3
+
+from the specified remote repositories:
+  central (http://jcenter.bintray.com)
+
+ for project org.apache.maven.plugins:maven-resources-plugin
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: < 1 second
+[INFO] Finished at: Tue Sep 20 16:57:27 UTC 2022
+[INFO] Final Memory: 3M/17M
+[INFO] ------------------------------------------------------------------------
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

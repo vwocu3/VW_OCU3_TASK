@@ -1,0 +1,40 @@
+Started by user [8mha:////4AhlRaq169YIBUnKlYg5ZYaHOle/uf9lSA/kpjoPteDYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+Running as SYSTEM
+Building remotely on [8mha:////4BDsxsMwAlYOVNcIJaxdD4peD5mkLXroocideHsMJY9IAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/azUvOzMvGLdxPTUvBIAjWbCM8wAAAA=[0mjenkins-agent in workspace /home/jenkins/agent/workspace/gradle-SpringBootRestApp
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/gradle-SpringBootRestApp/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kishancs2020/SpringBootRestApp.git # timeout=10
+Fetching upstream changes from https://github.com/kishancs2020/SpringBootRestApp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/kishancs2020/SpringBootRestApp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 76016a7cc09c24b84620c656ea5c1a2452f62007 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76016a7cc09c24b84620c656ea5c1a2452f62007 # timeout=10
+Commit message: "first commit"
+ > git rev-list --no-walk 76016a7cc09c24b84620c656ea5c1a2452f62007 # timeout=10
+[Gradle] - Launching build.
+[gradle-SpringBootRestApp] $ /home/jenkins/agent/tools/hudson.plugins.gradle.GradleInstallation/7.5.1/bin/gradle build
+Starting a Gradle Daemon (subsequent builds will be faster)
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :compileJava UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :processResources UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :classes UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :bootJar UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :jar SKIPPED
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :assemble UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :compileTestJava UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :processTestResources NO-SOURCE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :testClasses UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :test UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :check UP-TO-DATE
+[8mha:////4H10JRIniK7NOAtPBllLXEMCDo/FcFI7b8I85zx+QGJ6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m> Task :build UP-TO-DATE
+
+[8mha:////4AuxzYdP5rLDsJp+2P4CtlwZDf5r/h83WtSeFgHTwYinAAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpNbNmqZ4mHPZIiYGhooiBimoruT8vOJ8oHJnCA1SyAABjCCFBQBI197DZQAAAA==[0mBUILD SUCCESSFUL in 16s
+5 actionable tasks: 5 up-to-date
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+Recording test results
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: weber
+Build-Jdk: 1.8.0_302
+Extension-Name: cmakebuilder
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: cmakebuilder
+Implementation-Version: 4.1.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: cmakebuilder
+Long-Name: CMake plugin
+Url: https://github.com/jenkinsci/cmakebuilder-plugin
+Compatible-Since-Version: 2.6.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 4.1.1
+Hudson-Version: 2.150.3
+Jenkins-Version: 2.150.3
+Plugin-Dependencies: workflow-api:2.40;resolution:=optional,workflow-j
+ ob:2.38;resolution:=optional,workflow-step-api:2.22;resolution:=optio
+ nal
+Plugin-Developers: Martin Weber:15knots:
+Plugin-License-Name: MIT license
+Plugin-License-Name-2: Eclipse Public License v1.0
+Plugin-License-Url-2: http://www.eclipse.org/legal/epl-v10.html
+Plugin-ScmUrl: https://github.com/jenkinsci/cmakebuilder-plugin
+

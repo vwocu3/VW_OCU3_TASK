@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Agent Maintenance
+Specification-Version: 0.0
+Implementation-Title: Agent Maintenance
+Implementation-Version: 1.76.v6396206d534f
+Group-Id: io.jenkins.plugins
+Short-Name: agent-maintenance
+Long-Name: Agent Maintenance
+Url: https://github.com/jenkinsci/agent-maintenance-plugin
+Plugin-Version: 1.76.v6396206d534f
+Hudson-Version: 2.346.1
+Jenkins-Version: 2.346.1
+Plugin-Dependencies: ionicons-api:19.v744f3b_2b_b_e4e
+Plugin-Developers: Markus Winter:mawinter69:
+Plugin-License-Name: Apache License, Version 2.0
+Plugin-License-Url: https://opensource.org/licenses/Apache-2.0
+Plugin-ScmUrl: https://github.com/jenkinsci/agent-maintenance-plugin
+
